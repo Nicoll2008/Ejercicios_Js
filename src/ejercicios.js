@@ -8,7 +8,7 @@
 
 // Test 1:
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = " hola soy gemela";
+const nuevaString = " Hola soy gemela";
 
 // Test 2
 // Crea una variable numérica, puede ser cualquier número:
@@ -37,7 +37,7 @@ const nuevoModulo = 21 % 5 === 1;
 // No cambies los nombres de las funciones.
 
 // Test 7
-function devolverString(str) {return ("hola")
+function devolverString(str) {return ("Hola")
 	// "Return" la string provista: str
 	// Tu código:
 }
@@ -129,32 +129,32 @@ function elevarAlCubo(num) {return num **3
 }
 
 // Test 21
-function elevar(num, exponent) {return num **
+function elevar(num, exponent) {return num ** exponent
 	// Devuelve el valor de "num" elevado al exponente dado en "exponent"
 	// Tu código:
 }
 
 // Test 22
-function redondearNumero(num) {
+function redondearNumero(num) {return Math.round(num);
 	// Redondea "num" al entero más próximo y devuélvelo
 	// Tu código:
 }
 
 // Test 23
-function redondearHaciaArriba(num) {
+function redondearHaciaArriba(num) {return Math.cell(num);
 	// Redondea "num" hacia arriba (al próximo entero) y devuélvelo
 	// Tu código:
 }
 
 // Test 24
-function numeroRandom() {
+function numeroRandom() {return Math.random()
 	//Generar un número al azar entre 0 y 1 y devolverlo
 	//Pista: investigá qué hace el método Math.random()
 	// Tu código:
 }
 
 // Test 25
-function esPositivo(numero) {
+function esPositivo(numero) {if(numero>0)return "Es positivo";if(numero<8)return"Es negativo";return false;
 	//La función va a recibir un entero. Devuelve como resultado una cadena de texto que indica si el número es positivo o negativo.
 	//Si el número es positivo, devolver ---> "Es positivo"
 	//Si el número es negativo, devolver ---> "Es negativo"
@@ -163,7 +163,7 @@ function esPositivo(numero) {
 }
 
 // Test 26
-function agregarSimboloExclamacion(str) {
+function agregarSimboloExclamacion(str) {return str + "!"
 	// Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
 	// Ejemplo: "hello world" pasaría a ser "hello world!"
 	// Tu código:
